@@ -1,5 +1,23 @@
+print("Hello python world!")
+print("Welcome to python world")
+print("Hello"*10)
+print("결과값은", 10 , "입니다")
+print("3 * 1=", 3 * 1)
+print("3 * 2=", 3 * 2)
+print("3 * 3=", 3 * 3)
+print("파이썬에 오신것을 환영합니다")
+print("파이썬은 쉽습니다")
+print("파이썬으로 빅데이터, 인공지능 프로그램을 작성할 수 있습니다")
+print("2+3=", 2+3)
+print("2-3=", 2-3)
+print("2*3=", 2*3)
+print("2/3=", 2/3)
+print("안녕하세요?")
+print("이번코드에는 많은 오류가 있다네요")
+print("제가 다 고쳐보겠습니다")
 from collections import Counter
 
 f = open("d;//mobydick.txt", encoding="utf-8")
 count = counter(f.read().split())
+
 print("단어 출현 횟수 :", count)
